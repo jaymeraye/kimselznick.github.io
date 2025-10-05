@@ -1,9 +1,86 @@
-body {background-color: #EAEAEA; color: #555555; font-family: Arial, Helvetica, sans-serif;}
-header {background-color: #002171; color: #FFFFFF; border: 1px solid #000033; text-align: center;}
-h1 {margin-bottom: 0; font-family: Georgia, 'Times New Roman', serif; margin-top: 0; letter-spacing: 0.25em; padding-top: 0.5em; padding-bottom: 0.5em;}
-nav {font-weight: bold; padding: 0; font-size: 120%; text-align: center;}
-nav li {border-bottom: 1px solid #000033;}
-nav ul {list-style-type: none; margin: 0; padding-left: 0; font-size: 1.2em;}
-main {padding-left: 30px; display: block; background-color: #FFFFFF; overflow: auto;}
-h2 {color: #002171; font-family: Georgia, 'Times New Roman', serif; text-shadow: 1px 1px 1px #CCCCCC;}
-footer {font-size: 75%; font-style: italic; text-align: center; font-family: Georgia, 'Times New Roman', serif; padding: 2em; background-color: #FFFFFF;}
+body {
+    background-color:#EAEAEA; 
+    color: #555555; 
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #FFFFFF; 
+    color: #002171; 
+    text-align: center;
+}
+h1 {
+    margin-bottom: 0; 
+    font-family: Open Sans, Georgia, 'Times New Roman', serif; 
+    margin-top: 0; 
+    letter-spacing: 0.25em; 
+    padding-top: 0.5em; 
+    padding-bottom: 0.5em;
+}
+nav {
+    font-weight: bold; 
+    padding: 0; 
+    font-size: 120%; 
+    text-align: center;
+}
+nav li {
+    border-bottom: 1px solid #000033;
+}
+nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding-left: 0; 
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0;
+}
+nav ul li a{
+    display: block;
+    padding: 14px 20px;
+    color: #002171;
+    text-decoration: none;
+}
+main {
+    padding-left: 30px; 
+    display: block; 
+    background-color: #FFFFFF; 
+    overflow: auto;
+}
+h2 {
+    color: #002171; 
+    font-family: Open Sans, Georgia, 'Times New Roman', serif; 
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+#sunsethero {height: 300px; background-image: url(sunset.png); background-size: 100% 100%; background-repeat: no-repeat;}
+#luxhomehero {height: 300px; background-image: url(luxhome.png); background-size: 100% 100%; background-repeat: no-repeat;}
+#downsizehero {height: 300px; background-image: url(downsize.png); background-size: 100% 100%; background-repeat: no-repeat;}
+table {
+    border: 2px solid #002171; 
+    border-collapse: collapse;
+}
+td, th {
+    padding: 0.5em; 
+    border: 2px solid #002171;
+}
+td {
+    text-align: center;
+}
+text {
+    text-align: left;
+}
+tr:nth-of-type(odd) {
+    background-color: #F5FAFC;
+}
+form {display: flex; 
+    flex-direction: column; 
+    flex-wrap: nowrap;}
+footer {
+    font-size: 75%; 
+    font-style: italic; 
+    text-align: center; 
+    font-family: Open Sans, Georgia, 'Times New Roman', serif; 
+    padding: 2em; 
+    background-color: #FFFFFF;
+}

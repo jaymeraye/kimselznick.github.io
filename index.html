@@ -21,11 +21,29 @@
         <li><a href="homevalue.html">Home Valuation</a></li>
         </ul>
     </nav>
+    <div id = "luxhomehero" class = "hero"></div>
     <main>
     <h2>Meet Me!</h2>
     <p> Hi, I'm Kim Selznick, a local realtor, specialzing in the North County area of San Diego, CA. 
         Where I have been a resident for over 40 years, I raised my family in La Costa/Carlsbad, and I call Vista home.
         From buying to selling, downsizing or relocating, whatever your real estate needs may be, I am happy to help! </p>
+    <h3>Recieve Personalized Listings To Your Inbox</h3>
+    <p>Required fields are marked with an asterisk *</p>
+    <form method = "post" action = https://webdevbasics.net/scripts/pacific.php>
+    <label for="Name"> * Name:</label>    
+    <input type="text" id="Name" name="Name" required>
+    <label for="Email"> *Email:</label>    
+    <input type="email" id="Email" name="Email" required>
+    <label for="City"> City:</label>
+    <input type="text" id="City" name="City">
+    <label for="buy-sell">Buying or Selling:</label>
+        <select id="buy-sell" name="buy-sell">
+          <option value="">-- Select --</option>
+          <option value="buying">Buying</option>
+          <option value="selling">Selling</option>
+        </select>
+    <input type="submit" value="Submit">
+    </form>    
 <div>
     Kim Selznick<br>
     Coldwell Banker Vista Village<br>
