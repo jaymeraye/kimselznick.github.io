@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="kselznick.css">
 </head>
 <body>
+    <div id="wrapper">
     <header>
-        <h1><a>Kim Selznick</a></h1>
+        <h1><a href="index.html">Kim Selznick</a></h1>
     </header>
     <nav>
         <ul>
@@ -18,18 +19,27 @@
         <li><a href="northcounty.html">North County</a></li>
         <li><a href="downsizing.html">Downsizing</a></li>
         <li><a href="buyingorselling.html">Buying or Selling</a></li>
-        <li><a href="homevalue.html">Home Valuation</a></li>
         </ul>
     </nav>
-    <div id = "luxhomehero" class = "hero"></div>
+    <div id = "luxhomehero" class = "hero" role="img" aria-label="Luxurious house"></div>
     <main>
     <h2>Meet Me!</h2>
     <p> Hi, I'm Kim Selznick, a local realtor, specialzing in the North County area of San Diego, CA. 
         Where I have been a resident for over 40 years, I raised my family in La Costa/Carlsbad, and I call Vista home.
         From buying to selling, downsizing or relocating, whatever your real estate needs may be, I am happy to help! </p>
+        <p>
+        Check out
+        <a href="https://www.coldwellbanker.com" target="_blank" rel="noopener noreferrer">
+            Coldwell Banker
+        </a>.
+    </p>
+        <video controls poster= "keys.png" width="320" height="240">
+            aria-label="couple getting the keys to their new home"
+            <source src= "keys.mp4" type="video/mp4">
+        </video>
+    <div class="form-container">
+    <form>
     <h3>Recieve Personalized Listings To Your Inbox</h3>
-    <p>Required fields are marked with an asterisk *</p>
-    <form method = "post" action = https://webdevbasics.net/scripts/pacific.php>
     <label for="Name"> * Name:</label>    
     <input type="text" id="Name" name="Name" required>
     <label for="Email"> *Email:</label>    
@@ -43,13 +53,18 @@
           <option value="selling">Selling</option>
         </select>
     <input type="submit" value="Submit">
-    </form>    
-<div>
-    Kim Selznick<br>
+    </form>   
+</div> 
+<div class="contact-info">
+  <img src="ksheadshot.jpg" alt="Headshot of Kim Selznick, Realtor in San Diego">
+  <p>
+    <strong>Kim Selznick</strong><br>
     Coldwell Banker Vista Village<br>
     150 Main Street Suite 3<br>
     Vista, CA 92084<br>
-    760.717.9229<br><br>
+    760.717.9229<br>
+    <a href="mailto:kim@kimselznick.com">kim@kimselznick.com</a>
+  </p>
 </div>
 </main>
 <footer>
@@ -57,5 +72,6 @@
     <br>
     <a href="mailto:kim@kimselznick.com">kim@kimselznick.com</a>
 </footer>
+</div>
 </body>
 </html>
